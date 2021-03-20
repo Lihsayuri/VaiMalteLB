@@ -8,7 +8,6 @@ public class Caixa {
 
 
 	public Caixa() {
-		super();
 		this.desconto = new HashMap<>();
 	}
 	
@@ -33,6 +32,7 @@ public class Caixa {
 				total+= pedido.totalGasto();
 			}
 				
-		} return total;
+		} 
+		return total;
 	}
 }

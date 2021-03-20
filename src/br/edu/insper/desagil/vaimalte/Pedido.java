@@ -6,7 +6,6 @@ public class Pedido {
 	
 	
 	public Pedido(Produto produto) {
-		super();
 		this.produto = produto;
 		this.quantidade = 1;
 	}

@@ -20,8 +20,9 @@ public class Carrinho {
 				pedido.adicionaQuantidade(); 
 				return; 
 			}	
-		} Pedido novoPedido = 	new Pedido(produto);
-		  this.pedidos.add(novoPedido);
+		}
+		Pedido novoPedido = 	new Pedido(produto);
+		this.pedidos.add(novoPedido);
 
 	}
 }
